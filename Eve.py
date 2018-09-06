@@ -1,5 +1,4 @@
-lower_limit=int(input("enter the lower limit:"))
-upper_limit=int(input("enter the upper limit:"))
-for i in range(lower_limit,upper_limit+1):
-if (i%2==0):
-    print(i)
+a,b=map(int,raw_input().split())
+for i in range(a+1,b):
+     if i%2==0:
+         print i,
